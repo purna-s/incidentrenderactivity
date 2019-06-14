@@ -2,8 +2,8 @@
 title: incidentrenderactivity
 ---
 
-# XMLRender Activity
-This activity allows you Render XML using your defined schema in incidentrenderactivity code
+# incidentrenderactivity
+This activity allows you Render Incident json using defined schema in incidentrenderactivity code
 
 ## Installation
 ### Flogo CLI
