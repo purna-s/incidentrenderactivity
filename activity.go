@@ -72,8 +72,8 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 	//fmt.Println(string(xmlData))
 
 	// Set the output as part of the context
-	activityLog.Debugf("Activity has rendered XML Successfully")
-	//fmt.Println("Activity has rendered XML Successfully")
+	activityLog.Debugf("Activity has rendered Incident json Successfully")
+	//fmt.Println("Activity has rendered Incident json Successfully")
 
 	ctx.SetOutput("output", string(xmlData))
 
